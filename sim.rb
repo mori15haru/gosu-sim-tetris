@@ -64,6 +64,5 @@ class SimWindow < Gosu::Window
 end
 
 if __FILE__ == $0
-  window = SimWindow.new
-  window.show
+  SimWindow.new.show
 end
